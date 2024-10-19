@@ -51,9 +51,9 @@ def plot_contour(x,y,z,axis_off):
 
 
 if __name__=="__main__":
-    path=r'C:/Users/User/Desktop/vaeridion/HM/updated_model_220619_2249/updated_statics.op2'
+    path=r'C:/...'
     op2=read_op2(path,build_dataframe=True)
-    path=r'C:/Users/User/Desktop/vaeridion/HM/updated_model_220619_2249/updated_statics.bdf'
+    path=r'C:/...'
     bdf=read_bdf(path,xref=False)
 
     given=[317,318,319]
